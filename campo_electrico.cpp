@@ -72,7 +72,7 @@ float step_t= 0.1;
 	i++;
 	
 ofstream outfile;
-outfile.open(filename);
+outfile.open(datos.dat);
 outfile << t << " " << x << " " << y << endl;
  outfile.close();
 
